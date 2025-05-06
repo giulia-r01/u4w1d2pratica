@@ -12,10 +12,10 @@ public class Esercizio1 {
         boolean pariOdispari = stringaPariDispari(str);
         System.out.println(pariOdispari);
 
-        System.out.println("Inserisci l'anno");
-        int calcoloAnno = scanner.nextInt();
-        boolean bisestileOno = annoBisestile(calcoloAnno);
-        System.out.println("L'anno " + calcoloAnno + (bisestileOno ? " è bisestile." : " non è bisestile."));
+        System.out.println("Inserisci un anno");
+        int anno = scanner.nextInt();
+        boolean bisestileOno = annoBisestile(anno);
+        System.out.println("L'anno " + anno + (bisestileOno ? " è bisestile." : " non è bisestile."));
     }
 
     public static boolean stringaPariDispari(String s){
